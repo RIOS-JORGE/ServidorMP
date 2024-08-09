@@ -10,7 +10,6 @@ import { MercadoPagoConfig, Preference } from "mercadopago";
 const client = new MercadoPagoConfig({
   accessToken: process.env.VITE_APP_ACCESSTOKEN,
 });
-console.log(process.env.VITE_APP_ACCESSTOKEN);
 const app = express();
 const port = process.env.PORT || 3000;
 
