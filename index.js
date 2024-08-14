@@ -32,9 +32,9 @@ app.post("/create_preference", async (req, res) => {
         },
       ],
       back_urls: {
-        success: "http://localhost:8080/feedback",
-        failure: "http://localhost:8080/feedback",
-        pending: "http://localhost:8080/feedback",
+        success: "https://fashions-zeta.vercel.app/productos/pedidos",
+        failure: "https://fashions-zeta.vercel.app/contactos",
+        pending: "https://fashions-zeta.vercel.app/contactos",
       },
       auto_return: "approved",
     };
